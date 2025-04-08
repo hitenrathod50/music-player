@@ -1,0 +1,14 @@
+#h-scroll {
+    display: flex;
+    margin-top: 10px;
+    /* margin: 15px 10px; */
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    /* justify-content: center; */
+    scroll-behavior: smooth;
+    /* white-space: nowrap; */
+}
+
+#h-scroll::-webkit-scrollbar {
+    visibility: hidden;
+}

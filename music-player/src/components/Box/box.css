@@ -1,0 +1,63 @@
+#box-container {
+    width: 150px;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    flex: 0 0 150px;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    margin: 0px 10px;
+    height: fit-content;
+}
+
+#box-container:hover {
+    background-color: #353535aa;
+}
+
+#box-container:hover #play-icon {
+    animation-name: circle;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes circle {
+    from {
+        bottom: 0px;
+        opacity: 0%;
+    }
+
+    to {
+        bottom: 13px;
+        opacity: 100%;
+    }
+}
+
+#song-image {
+    /* margin: 10px; */
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+#img-play-icon {
+    position: relative;
+}
+
+
+#play-icon {
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+    opacity: 0%;
+    background-color: rgba(255, 0, 0, 1);
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.641);
+}
+
+#play-icon:hover {
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.745);
+}

@@ -1,0 +1,13 @@
+#profile-first-block {
+    display: flex;
+    padding: 23px 10px;
+    background: linear-gradient(45deg, rgb(28, 28, 28), rgb(73, 73, 73));
+    border-radius: 10px;
+}
+
+#liked-songs {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    /* background-color: red; */
+}

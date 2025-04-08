@@ -1,0 +1,35 @@
+#searchbox:focus {
+    outline-color: none;
+    border-color: red;
+}
+
+#searchbox {
+    background-color: #29292984;
+    caret-color: rgb(255, 255, 255);
+    color: white;
+    height: 30px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #1d1d1d;
+    /* only for search icon style */
+    width: 100%;
+    /* box-sizing: border-box; */
+    background-image: url('search-icon.svg');
+    background-repeat: no-repeat;
+    background-position: 10px 13px;
+    padding-left: 40px;
+}
+
+#searchbox:hover {
+    border: 1px solid #2e2e2e78;
+    background-color: #212121;
+}
+
+#searchbox #searchbox:hover {
+    background-color: #28282889;
+}
+
+#searchbox::placeholder {
+    color: rgb(101, 101, 101);
+}

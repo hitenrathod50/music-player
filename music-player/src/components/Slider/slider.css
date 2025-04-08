@@ -1,0 +1,27 @@
+#slider {
+    display: flex;
+    justify-content: center;
+}
+
+.slider .MuiSlider-thumb {
+    background-color: rgb(255, 255, 255);
+    visibility: hidden;
+    height: 9px;
+    width: 9px;
+}
+
+.slider:hover .MuiSlider-thumb {
+    visibility: visible;
+}
+
+.slider:hover .MuiSlider-track {
+    background-color: rgb(255, 0, 0);
+}
+
+.slider .MuiSlider-track {
+    background-color: white;
+}
+
+.slider .MuiSlider-rail {
+    background-color: rgb(112, 112, 112);
+}

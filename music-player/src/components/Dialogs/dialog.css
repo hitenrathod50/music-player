@@ -1,0 +1,32 @@
+#dialog {
+  width: 600px;
+  background: linear-gradient(45deg, rgb(0, 0, 0), #1e1e1e);
+  border-radius: 20px;
+}
+
+
+.textinput .MuiOutlinedInput-root {
+  border-color: green;
+  border-radius: 12px;
+}
+
+.textinput .MuiInputLabel-root {
+  color: rgb(184, 184, 184);
+}
+
+
+.textinput .MuiInputLabel-root.Mui-focused {
+  color: rgb(255, 255, 255);
+}
+
+.textinput .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(154, 154, 154);
+}
+
+.textinput .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(255, 255, 255);
+}
+
+.textinput .MuiInputBase-input {
+  color: rgb(255, 255, 255);
+}
