@@ -9,3 +9,5 @@ In Backend folder run following command :
 ## Running the Frontend
 In music-player folder run following command :
 <pre>npm run dev</pre>
+# Prerequisites
+<a href="https://nodejs.org/en/download">Node</a>
